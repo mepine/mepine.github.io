@@ -4,7 +4,7 @@ body {
 /*    background-color:#FAFAFA;*/
     -webkit-text-size-adjust: none;
 }
-p {
+p, #contact-form {
     font-family: Georgia, Times, serif;
     font-size: 17px;
 /*    width: 640px;*/
@@ -78,6 +78,11 @@ a {
     box-shadow: 0 10px 15px rgba(0,0,0,0.6);
 }
 */
+.row {
+    float: left;
+    width: 100%;
+}
+
 #toc {
     position: static;
     float: left;
@@ -389,11 +394,32 @@ blockquote cite {
     display: block;
 }
 
-p a {
+.content a {
     font-style: italic;
     text-decoration:underline;
     color: black;
 }
-p a:hover {
+.content a:hover {
     color: rgb(196, 0, 0);
+}
+
+#contact-form {
+    margin-left: 170px;
+}
+#contact {
+    margin-bottom: 100px;
+}
+
+footer {
+    border-top: 1px solid #EFEFEF;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#footer-text {
+    float: right;
+    margin-right: 20px;
+}
+#footer-text p {
+    margin: 0;
+    font-family: Palatino, Times, serif;
 }
