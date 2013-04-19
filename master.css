@@ -24,6 +24,7 @@ a {
 
 #greeting {
     position: relative;
+    background-color: rgb(190, 190, 190);
     background-image:url('images/portrait.jpg');
     width: 1120px;
     height:745px;
