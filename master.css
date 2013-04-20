@@ -12,6 +12,10 @@ p, #contact-form {
 /*    margin-left: 100px;*/
     margin-bottom: 20px;
 }
+#chinese {
+    font-family: BiauKai, Kai, SimKai, ST Kaiti, serif;
+    font-size: 20px;
+}
 a {
     text-decoration: none;
 }
@@ -232,7 +236,7 @@ a {
 }
 div.content h3, h4, p {
     margin-left: 150px;
-    margin-right: 50px;
+    margin-right: 80px;
 /*    width: 840px;*/
 }
 
@@ -394,12 +398,12 @@ blockquote cite {
     display: block;
 }
 
-.content a {
+.content p a, .content ul a {
     font-style: italic;
     text-decoration:underline;
     color: black;
 }
-.content a:hover {
+.content p a:hover, .content ul a:hover {
     color: rgb(196, 0, 0);
 }
 
