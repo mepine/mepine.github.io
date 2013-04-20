@@ -408,12 +408,14 @@ blockquote cite {
 }
 
 #contact-form {
-    margin-left: 170px;
+    margin-left: 20px;
 }
 #contact {
     margin-bottom: 100px;
 }
-
+#contact p {
+    margin-left: 0;
+}
 footer {
     border-top: 1px solid #EFEFEF;
     padding-top: 50px;
