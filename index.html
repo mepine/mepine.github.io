@@ -18,6 +18,14 @@
     </script>
 </head>
 <body>
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=118689304872710";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
     <div id="main">
         <div class="dropshadow" id="greeting">
             <h1>Hi,<br />I'm Pine.</h1>
@@ -363,6 +371,11 @@
         </div>
         <div class="row">
             <footer>
+                <div id="social-media">
+                    <a href="https://twitter.com/share" class="twitter-share-button">Tweet</a>
+                    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+                    <div class="fb-like" data-send="false" data-width="450" data-show-faces="true"></div>
+                </div>
                 <div id="footer-text">
                     <p>© 2013 Pine Du</p>
                 </div>
