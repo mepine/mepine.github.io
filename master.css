@@ -433,6 +433,6 @@ footer {
     font-family: Palatino, Times, serif;
 }
 
-.fb-like {
-/*    top: 7px;*/
+.tweet-button {
+    display: block;
 }
