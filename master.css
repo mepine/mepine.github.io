@@ -432,3 +432,7 @@ footer {
     margin: 0;
     font-family: Palatino, Times, serif;
 }
+
+.fb-like {
+    top: 7px;
+}
