@@ -39,6 +39,10 @@ a {
 */
 }
 
+#portrait-pic {
+    display: none;
+}
+
 #greeting h1{
     position: absolute;
     top:330px;
